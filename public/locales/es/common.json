@@ -1,0 +1,128 @@
+{
+    "language": "Español",
+    "common": {
+        "terms": {
+            "article_male_one": "el",
+            "article_male_other": "los",
+            "article_female_one": "la",
+            "article_female_other": "las",
+            "email": "correo electrónico",
+            "password": "contraseña",
+            "sender": "remitente",
+            "payee": "beneficiario",
+            "country": "país",
+            "name": "nombre",
+            "surname": "apellido",
+            "phone": "número",
+            "office": "oficina",
+            "city": "ciudad",
+            "search": "buscar",
+            "amount": "importe",
+            "available": "disponible",
+            "selected": "seleccionado",
+            "cash": "efectivo",
+            "completed": "completado",
+            "customer": "cliente",
+            "new": "nuevo",
+            "new_female": "nueva",
+            "credentials": "credenciales",
+            "transfer": "envío",
+            "summary": "resumen",
+            "max": "máx",
+            "rate": "tarifa",
+            "subtotal": "subtotal",
+            "total": "total",
+            "send": "enviar",
+            "rates": "tarifas",
+            "confirm": "confirmar",
+            "please": "por favor",
+            "code": "código",
+            "reference": "referencia",
+            "required": "obligatorio",
+            "required_female": "obligatoria",
+            "to-be_one": "es",
+            "to-be_other": "son",
+            "valid_male_one": "válido",
+            "valid_male_other": "válidos",
+            "valid_female_one": "válida",
+            "valid_female_other": "válidas",
+            "coming-soon": "próximamente",
+            "national": "nacional",
+            "international": "internacional",
+            "type": "tipo",
+            "withdraw": "retirar"
+        },
+        "errors": {
+            "empty": "¡Lo sentimos! No hemos encontrado ningún resultado.",
+            "required": "$t(common.terms.article) $t({{field}}) $t(common.terms.to-be) $t(common.terms.required)",
+            "min": "$t(common.terms.article) $t({{field}}) debe ser mayor a $t(common.format.number)",
+            "max": "$t(common.terms.article) $t({{field}}) debe ser menor a $t(common.format.number)",
+            "invalid": "$t(common.terms.article) $t({{field}}) debe ser $t(common.terms.valid)",
+            "non-valid": "$t(common.terms.article) $t({{field}}) no $t(common.terms.to-be) $t(common.terms.valid)",
+            "length": "$t(common.terms.article) $t({{field}}) debe tener exactamente {{value}} caracteres",
+            "equal": "$t(common.terms.article) $t({{field}}) debe ser diferente $t({{value}})",
+            "unknown": "Ha ocurrido un error desconocido. Inténtelo de nuevo más tarde."
+        },
+        "format": {
+            "percentage": "{{value, number(style: percent; maximumFractionDigits: 2)}}",
+            "number": "{{value, number(maximumFractionDigits: 1)}}",
+            "currency": "{{value, currency}}",
+            "date": "{{value, datetime(dateStyle: medium)}}"
+        }
+    },
+    "menu": {
+        "language": {
+            "name": "Idioma"
+        },
+        "logout": {
+            "name": "Cerrar Sesión"
+        }
+    },
+    "pages": {
+        "dashboard": {
+            "name": "Panel de Control"
+        },
+        "transfer-funds": {
+            "name": "$t(common.terms.transfer) de fondos",
+            "new-transfer": "$t(common.terms.new) $t(common.terms.transfer)",
+            "search-country": "$t(common.terms.search) $t(common.terms.country)",
+            "search-office": "$t(common.terms.search) $t(common.terms.office)",
+            "collection-office": "$t(common.terms.office) de Recogida",
+            "available-cash": "$t(common.terms.cash) $t(common.terms.available) ({{currency}})",
+            "max-amount": "($t(common.terms.max): $t(common.format.number))",
+            "amount-multiplier": "(x$t(common.format.number))",
+            "confirm-transfer": "$t(common.terms.confirm) $t(common.terms.transfer)",
+            "modal-title": "¡$t(common.terms.please), asegúrese de cobrar la siguiente cantidad!",
+            "sender-phone-ref": "al del $t(common.terms.sender)",
+            "success": "¡El $t(common.terms.transfer) se ha creado correctament!",
+            "errors": {
+                "office": {
+                    "unselected": "Debe seleccionar una $t(pages.transfer-funds.collection-office)"
+                },
+                "phone": {
+                    "discrepancy": "$t(common.terms.article) $t(common.terms.phone) está asociado a otro $t(common.terms.customer)"
+                }
+            }
+        },
+        "withdraws": {
+            "name": "Retiros",
+            "ref-code": "$t(common.terms.code) de $t(common.terms.reference)",
+            "pending": "Pendiente de $t(common.terms.withdraw)",
+            "errors": {
+                "transfer": {
+                    "not-exists": "No existe ningún $t(common.terms.transfer) con código de referencia {{value}}",
+                    "sorry-not-exists": "Lo sentimos. $t(pages.withdraws.errors.transfer.not-exists)"
+                }
+            }
+        },
+        "office": {
+            "name": "$t(common.terms.office)"
+        },
+        "stats": {
+            "name": "Estadísticas"
+        },
+        "sign-in": {
+            "name": "Iniciar sesión"
+        }
+    }
+}

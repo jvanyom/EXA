@@ -1,11 +1,16 @@
 <component name="InspectionProjectProfileManager">
-  <profile version="1.0">
-    <option name="myName" value="Project Default" />
-    <inspection_tool class="EditorConfigDeprecatedDescriptor" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
-    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="JSDeprecatedSymbols" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
-    <inspection_tool class="JSIgnoredPromiseFromCall" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES" />
-    <inspection_tool class="JSUnusedAssignment" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-    <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
-  </profile>
+    <profile version="1.0">
+        <option name="myName" value="Project Default"/>
+        <inspection_tool class="EditorConfigDeprecatedDescriptor" enabled="true" level="WARNING"
+                         enabled_by_default="true" editorAttributes="DEPRECATED_ATTRIBUTES"/>
+        <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true"/>
+        <inspection_tool class="JSDeprecatedSymbols" enabled="true" level="WARNING" enabled_by_default="true"
+                         editorAttributes="DEPRECATED_ATTRIBUTES"/>
+        <inspection_tool class="JSIgnoredPromiseFromCall" enabled="true" level="TEXT ATTRIBUTES"
+                         enabled_by_default="true" editorAttributes="CONSIDERATION_ATTRIBUTES"/>
+        <inspection_tool class="JSUnusedAssignment" enabled="true" level="WARNING" enabled_by_default="true"
+                         editorAttributes="WARNING_ATTRIBUTES"/>
+        <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WARNING" enabled_by_default="true"
+                         editorAttributes="WARNING_ATTRIBUTES"/>
+    </profile>
 </component>

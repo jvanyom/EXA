@@ -4,7 +4,8 @@ import useSWR from "swr";
 
 export const useTransfer = (code?: string) => {
     const { data, error } = useSWR<TransferResponse, Error>(code && `/api/transfer/${code}`, {
-        shouldRetryOnError: false
+        shouldRetryOnError: false,
+        revalidateOnFocus: false
     });
 
     return {
